@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import { HelpCircle, Check, X } from 'lucide-react';
 import type { WordData } from '../types';
+import { markQuizCompleted } from '../utils/quizStorage';
 
 interface QuizModuleProps {
   data: WordData;
+  onComplete?: () => void;
 }
 
-const QuizModule: React.FC<QuizModuleProps> = ({ data }) => {
+const QuizModule: React.FC<QuizModuleProps> = ({ data, onComplete }) => {
   const [selected, setSelected] = useState<number | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [currentWordId, setCurrentWordId] = useState(data.id);
 
-  // Reset quiz state when word changes
+  // Reset quiz state when word changes, but check if already completed
   if (data.id !== currentWordId) {
     setCurrentWordId(data.id);
     setSelected(null);
@@ -21,7 +23,14 @@ const QuizModule: React.FC<QuizModuleProps> = ({ data }) => {
   const handleOptionClick = (index: number) => {
     if (selected !== null) return; 
     setSelected(index);
-    setIsCorrect(index === data.quiz.correctIndex);
+    const correct = index === data.quiz.correctIndex;
+    setIsCorrect(correct);
+    
+    // Mark as completed if answered correctly
+    if (correct) {
+      markQuizCompleted(data.id);
+      onComplete?.();
+    }
   };
 
   return (

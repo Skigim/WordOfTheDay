@@ -16,4 +16,9 @@ export interface WordData {
   example: string;
   etymology: string;
   quiz: QuizData;
+  /** Date this word is scheduled for (YYYY-MM-DD format) */
+  date: string;
 }
+
+/** View modes for the application */
+export type ViewMode = 'today' | 'history';
