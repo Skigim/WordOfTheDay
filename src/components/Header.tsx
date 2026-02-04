@@ -8,9 +8,10 @@ interface HeaderProps {
   currentView: ViewMode;
   onViewChange: (view: ViewMode) => void;
   currentDate?: string;
+  onEditUsername?: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ currentView, onViewChange, currentDate }) => {
+const Header: React.FC<HeaderProps> = ({ currentView, onViewChange, currentDate, onEditUsername }) => {
   const displayDate = currentDate || getTodayDateString();
   
   return (
@@ -47,7 +48,7 @@ const Header: React.FC<HeaderProps> = ({ currentView, onViewChange, currentDate 
           </button>
         )}
         
-        <UserMenu />
+        <UserMenu onEditUsername={onEditUsername} />
       </div>
     </header>
   );
