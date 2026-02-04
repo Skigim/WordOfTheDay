@@ -10,7 +10,7 @@ export const WORD_DATA: WordData[] = [
     definition: "Lasting for a very short time; transitory.",
     example: "The ephemeral beauty of cherry blossoms reminds us to appreciate fleeting moments.",
     etymology: "From Greek 'ephemeros' meaning 'lasting only a day'.",
-    date: "2026-01-30",
+    date: "2026-02-04",
     quiz: {
       topic: "Biology",
       question: "Which of these organisms has an ephemeral adult lifespan of only 24 hours?",
@@ -31,7 +31,7 @@ export const WORD_DATA: WordData[] = [
     definition: "The realization that each random passerby is living a life as vivid and complex as your own.",
     example: "Sitting on the train, she was suddenly struck by sonder as she looked at the tired commuters.",
     etymology: "Coined by John Koenig for The Dictionary of Obscure Sorrows.",
-    date: "2026-01-31",
+    date: "2026-02-05",
     quiz: {
       topic: "Psychology",
       question: "Which cognitive concept is most closely related to the *opposite* of sonder (thinking you are the main character)?",
@@ -52,7 +52,7 @@ export const WORD_DATA: WordData[] = [
     definition: "The warmth of the sun in winter.",
     example: "The cat slept on the windowsill, soaking up the apricity on the cold January afternoon.",
     etymology: "From Latin 'apricitas' (sunniness).",
-    date: "2026-02-01",
+    date: "2026-02-06",
     quiz: {
       topic: "Astronomy",
       question: "Why does the winter sun feel weaker than the summer sun in the Northern Hemisphere?",
@@ -73,7 +73,7 @@ export const WORD_DATA: WordData[] = [
     definition: "The strange wistfulness of used bookstores, filled with thousands of old books you'll never have time to read.",
     example: "Wandering through the dusty aisles, she felt a deep sense of vellichor wash over her.",
     etymology: "Coined by John Koenig for The Dictionary of Obscure Sorrows.",
-    date: "2026-02-02",
+    date: "2026-02-07",
     quiz: {
       topic: "Literature",
       question: "Approximately how many books does the average person read in their lifetime?",
@@ -94,7 +94,7 @@ export const WORD_DATA: WordData[] = [
     definition: "A deep longing for a home you can't return to, or one that never was.",
     example: "Moving to a new country, she felt hiraeth for the childhood summers that existed only in memory.",
     etymology: "Welsh word with no direct English translation.",
-    date: "2026-02-03",
+    date: "2026-02-08",
     quiz: {
       topic: "Linguistics",
       question: "Which language family does Welsh belong to?",
@@ -115,7 +115,7 @@ export const WORD_DATA: WordData[] = [
     definition: "A pleasant smell that frequently accompanies the first rain after a long period of warm, dry weather.",
     example: "After the storm passed, the air was thick with the scent of petrichor.",
     etymology: "From Greek 'petra' (stone) and 'ichor' (the fluid that flows in the veins of the gods).",
-    date: "2026-02-04",
+    date: "2026-02-09",
     quiz: {
       topic: "Meteorology & Chemistry",
       question: "What chemical compound, produced by soil bacteria, is primarily responsible for the smell of petrichor?",
