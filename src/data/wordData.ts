@@ -127,6 +127,132 @@ export const WORD_DATA: WordData[] = [
       ],
       correctIndex: 1
     }
+  },
+  {
+    id: 7,
+    word: "Solivagant",
+    phonetic: "/səˈlɪv.ə.ɡənt/",
+    type: "adjective",
+    definition: "Wandering alone.",
+    example: "As a solivagant traveler, he preferred the quiet company of nature to bustling tour groups.",
+    etymology: "From Latin 'solivagus', from 'solus' (alone) + 'vagari' (to wander).",
+    date: "2026-02-10",
+    quiz: {
+      topic: "Travel & Literature",
+      question: "Which famous book by Jon Krakauer chronicles the solivagant journey of Christopher McCandless?",
+      options: [
+        "On the Road",
+        "Wild",
+        "Into the Wild",
+        "The Alchemist"
+      ],
+      correctIndex: 2
+    }
+  },
+  {
+    id: 8,
+    word: "Ineffable",
+    phonetic: "/ɪnˈef.ə.bəl/",
+    type: "adjective",
+    definition: "Too great or extreme to be expressed or described in words.",
+    example: "The ineffable beauty of the sunset left them all in silent awe.",
+    etymology: "From Latin 'ineffabilis', from 'in-' (not) + 'effabilis' (capable of being expressed).",
+    date: "2026-02-11",
+    quiz: {
+      topic: "Philosophy",
+      question: "Which of the following emotions is most often described as ineffable?",
+      options: [
+        "Mild annoyance",
+        "Sublime awe",
+        "Hunger",
+        "Boredom"
+      ],
+      correctIndex: 1
+    }
+  },
+  {
+    id: 9,
+    word: "Limerence",
+    phonetic: "/ˈlɪm.ər.əns/",
+    type: "noun",
+    definition: "The state of being infatuated or obsessed with another person, typically experienced involuntarily.",
+    example: "His teenage years were marked by a state of intense limerence for his lab partner.",
+    etymology: "Coined by psychologist Dorothy Tennov in 1979.",
+    date: "2026-02-12",
+    quiz: {
+      topic: "Psychology",
+      question: "According to Dorothy Tennov, what distinguishes limerence from other forms of love?",
+      options: [
+        "It is always platonic",
+        "It involves an intrusive, obsessive desire for reciprocation",
+        "It only lasts for a few days",
+        "It is purely physical"
+      ],
+      correctIndex: 1
+    }
+  },
+  {
+    id: 10,
+    word: "Defenestration",
+    phonetic: "/diːˌfen.əˈstreɪ.ʃən/",
+    type: "noun",
+    definition: "The action of throwing someone out of a window.",
+    example: "The political tension was so high that fears of a third defenestration began to spread.",
+    etymology: "From Latin 'de-' (down from) + 'fenestra' (window).",
+    date: "2026-02-13",
+    quiz: {
+      topic: "History",
+      question: "The Defenestration of Prague in 1618 helped trigger which major conflict?",
+      options: [
+        "The Hundred Years' War",
+        "The Thirty Years' War",
+        "World War I",
+        "The Napoleonic Wars"
+      ],
+      correctIndex: 1
+    }
+  },
+  {
+    id: 11,
+    word: "Serendipity",
+    phonetic: "/ˌser.ənˈdɪp.ɪ.ti/",
+    type: "noun",
+    definition: "The occurrence and development of events by chance in a happy or beneficial way.",
+    example: "It was pure serendipity that we met at the coffee shop right before the rain started.",
+    etymology: "Coined by Horace Walpole, inspired by the fairy tale 'The Three Princes of Serendip'.",
+    date: "2026-02-14",
+    quiz: {
+      topic: "Science History",
+      question: "Which of these medical discoveries is a famous example of serendipity?",
+      options: [
+        "The Polio Vaccine",
+        "Penicillin",
+        "MRI technology",
+        "Insulin"
+      ],
+      correctIndex: 1
+    }
+  },
+  {
+    id: 12,
+    word: "Meliorism",
+    phonetic: "/ˈmiː.li.ə.rɪ.zəm/",
+    type: "noun",
+    definition: "The belief that the world can be made better by human effort.",
+    example: "Despite the challenges, her strict adherence to meliorism kept her working for social change.",
+    etymology: "From Latin 'melior' (better).",
+    date: "2026-02-15",
+    quiz: {
+      topic: "Social Philosophy",
+      question: "How does meliorism differ from optimism?",
+      options: [
+        "Optimism believes things will get better; meliorism believes we can *make* them better",
+        "Optimism is passive; meliorism is pessimistic",
+        "They are exactly the same",
+        "Meliorism focuses only on the past"
+      ],
+      correctIndex: 0
+    }
   }
 ];
 
